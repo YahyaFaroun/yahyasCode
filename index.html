@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <title>YahyasCode - Web und mehr</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/arrow.css">
+</head>
+
+<body id="home">
+    <header>
+        <nav>
+            <a id="navHome" href="#home" onclick="navBar(0)">Home</a>
+            <a id="navAbout" href="#about" onclick="navBar(1)">About</a>
+            <div id="navDiv">
+                <a id="navHTML" href="#html-link" onclick="navBar(2)">HTML&CSS</a>
+                <a id="navJS" href="#js-link" onclick="navBar(3)">JavaScript</a>
+                <a id="navReact" href="#react-link" onclick="navBar(4)">React</a>
+                <a id="navNode" href="#node-link" onclick="navBar(5)">NodeJS</a>
+                <a id="navExpress" href="#express-link" onclick="navBar(6)">ExpressJS</a>
+                <a id="navMongoDB" href="#mongo-link" onclick="navBar(7)">MongoDB</a>
+            </div>
+            <a id="navContact" href="#contact-link" onclick="navBar(8)">Contact</a>
+        </nav>
+        <aside>
+            <a href="mailto:yahyafaroun81@gmail.com" target=_blank>
+                <ion-icon name="mail"></ion-icon>
+            </a>
+            <a href="https://github.com/YahyaFaroun?tab=repositories" target=_blank>
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="https://www.linkedin.com/in/yahya-faroun-a40b5144" target=_blank>
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="https://www.xing.com/profile/Yahya_Faroun" target=_blank>
+                <ion-icon name="logo-xing"></ion-icon>
+            </a>
+            <a href="https://www.facebook.com/yahya.faroun.96/" target=_blank>
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+       
+        </aside>
+        <h2>Fullstack <br> Developer</h2>
+        <h2>Fullstack <br> Developer</h2>
+        <div class="arrow">
+            <a href="#about">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h1>Yahya<br><span>Faroun</span></h1>
+            <div><img src="assets/img/me/sit.JPG" alt=""></div>
+            <h4>HTML, CSS, <span>JavaScript</span>
+                Bootstrap, SCSS,<span>React.js</span>
+                <span>Node.js</span> , Next.js, Express.js, <span>Mongo.db</span>,
+                WordPress, Git,
+                <span>Figma</span>, Scrum, UX/UI
+            </h4>
+            <div class="arrow">
+                <a href="#html-link">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+        </section>
+
+        <section id="html-link" class="topics">
+            <div>
+                <h1>HTML&CSS</h1>
+            </div>
+        </section>
+        <section id="hmtlCss" class="projects"></section>
+
+        <section id="js-link" class="topics">
+            <div>
+                <h1>JavaScript</h1>
+            </div>
+        </section>
+        <section id="js" class="projects"></section>
+
+        <section id="react-link" class="topics">
+            <div>
+                <h1>REACT</h1>
+            </div>
+        </section>
+        <section id="react" class="projects"></section>
+
+        <section id="node-link" class="topics">
+            <div>
+                <h1>Node.js</h1>
+            </div>
+        </section>
+        <section id="node" class="projects"></section>
+
+        <section id="express-link" class="topics">
+            <div>
+                <h1>Express.js</h1>
+            </div>
+        </section>
+        <section id="express" class="projects"></section>
+
+        <section id="mongo-link" class="topics">
+            <div>
+                <h1>MongoDB</h1>
+            </div>
+        </section>
+        <section id="mongoDB" class="projects"></section>
+
+        <section id="wordpress-link" class="topics">
+            <div>
+                <h1>Wordpress</h1>
+            </div>
+        </section>
+        <section id="wordpress" class="projects"></section>
+
+        <section id="contact-link" class="topics">
+            <div>
+                <h1>Contact</h1>
+            </div>
+        </section>
+    </main>
+
+   
+
+    <footer id="contact">
+        <h3>Warte nicht Länger <br>und kontaktiere mich.<span> Erhalte einen unverbindliches Angebot</span></h3>
+        <form action="myNetlify" method="POST" netlify>
+            <input class="inputBox" type="text" name="name" placeholder="name" required>
+            <input class="inputBox" type="text" name="telefon" placeholder="telefon">
+            <input class="inputBox" type="email" name="email" id="" placeholder="email" required>
+            <textarea class="inputBox" name="message" id="" cols="30" rows="10" placeholder="deine nachricht"></textarea>
+            <input class="btn" type="submit" value="SUBMIT">
+        </form>
+        <div id="status"></div>
+    </footer>
+</body>
+
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/main.js" async></script>
+<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+
+
+</html>
