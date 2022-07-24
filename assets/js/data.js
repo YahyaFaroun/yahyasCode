@@ -374,10 +374,30 @@ const mongoDB = [
 ]
 const wordpress = [
     {
+        "title": "Autoankauf",
+        "img": "assets/img/10_wordpress/autoankauf.png",
+        "website_link": "https://autoverkauf-ankauf.de/",
+        "about": "100 SEO Landingpages",
+        "date": "May 2021"
+    },
+    {
+        "title": "Sabil e.V.",
+        "img": "assets/img/10_wordpress/sabil.png",
+        "website_link": "http://sabilverein.de/",
+        "about": "Hilfsorganisation Projektmanagement",
+        "date": "May 2022"
+    },
+    {
         "title": "Donuts 2.0 Next Generation",
-        "img": "assets/img/10_wordpress/donuts2.0.png",
-        "website_link": "https://donuts2point0.de/",
+        "img": "assets/img/10_wordpress/donuts.png",
         "about": "WooCommerce Shop",
+        "date": "May 2021"
+    },
+    {
+        "title": "Reski Immobilien",
+        "img": "assets/img/10_wordpress/reski-immobilien.png",
+        "website_link": "https://reski-immobilien.de/",
+        "about": "Property Management ",
         "date": "May 2021"
     },
 ]
