@@ -22,6 +22,7 @@
 }
 body{
     font-family: 'Work Sans', 'Pinyon Script', 'Source Code Pro', sans-serif;
+    overflow-x: hidden;
 }
 h1{
     font-family: 'neueMachina-r';
